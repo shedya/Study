@@ -1,0 +1,33 @@
+/*
+[name]Black[/name]
+[iconbgcolor]#000000[/iconbgcolor]
+Powered by Discuz! X
+*/
+#sxp_nv,.pg strong,.pnpost .pn,.sxp_bank li:hover  { background: none repeat scroll 0% 0% #000000;}
+.fl .bm_h,.bmw .bm_h {background-color:#000000;}
+.sxpbbs99_r1area a:hover {color: #333;}
+.h_ttp .a a,#hd .h_pop li a:hover { color:#000000;}
+.pnc, a.pnc { background-color:#000000;border-color:#000000;}
+/*-----------------no2-------------------*/
+.pgs #newspecial, .pgs #newspecialtmp {background-color:#000000;}
+#post_reply, #post_replytmp { background-color:#008ed6; }
+/*-----------------no3-------------------*/
+#sxp_nv li.a a { background: none repeat scroll 0% 0% #008ed6;color:#FFF !important;}
+#sxp_nv li a:hover,#sxp_nv li.a a,#sxp_nv li.hover a,#sxp_nv li.hover a:hover { background: none repeat scroll 0% 0% #008ed6;color:#FFF !important;}
+/*-----------------no5-------------------*/
+.ttp a:hover { border-color:#000000; background:#000000;color: #FFF !important;} 
+.ttp a:hover .num {background:#FFF;color:#000000 !important;}
+.ttp .a a { border-color:#000000; background:#000000;color: #FFF !important;}
+.ttp .a:hover a {border-color:#000000; background:#000000; }
+/*-----------------no6-------------------*/
+.sxpbbs_rightarea #ibac0 { background:#008ed6;}
+.sxpbbs_rightarea #ibac1 { background:#008ed6;}
+.sxpbbs_rightarea #ibac2 { background:#008ed6;}
+.sxp_player .sxp_show a.on {background-color:#008ed6;}
+/*-----------------no7-------------------*/
+.sxpbbstwo_left a:hover { color:#FFF !important;}
+/*-----------------no8-------------------*/
+.bdl .tbn h2{background:#000000; }
+
+/*-----------------4ge-------------------*/
+.sxpbbs99_r1 .tab-title,.sxpbbs99_r2.frame-tab .tb { background:#000000;}
