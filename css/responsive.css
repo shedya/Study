@@ -1,4 +1,16 @@
 	/* sm */
+ @media (min-width: 1200px) {
+	img.img-responsive {
+		padding-right: 90px;
+		padding-left: 80px;
+	}
+}
+ @media (min-width: 992px) and (max-width: 1199px) {
+	img.img-responsive {
+		padding-right: 32px;
+		padding-left: 32px;
+	}
+}
  @media (min-width: 768px) and (max-width: 991px) {
 	.banner h3 {
 	  font-size: 13px;
