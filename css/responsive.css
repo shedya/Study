@@ -233,4 +233,31 @@
   	.footer p{
   		font-size: 12px;
   	}
+	.banner img {
+		display: none;
+	}
+	.col-xs-6 {
+		width: 100%;
+		padding-right: 15px;
+	}
+	.details-phone {
+		margin: 0;
+	}
+	.col-xs-5 {
+		width: 100%;
+	}
+	.col-xs-7 {
+		width: 100%;
+	}
+	.horizontal-phone img {
+		margin: -14px;
+	}
+	img.img-responsive.details-phone {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.look {
+    display: block !important;
+	padding: 32px !important;
+	}
 }
