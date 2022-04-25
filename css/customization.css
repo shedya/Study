@@ -1,7 +1,7 @@
 :root{
         --border-radius:8px;
 		--border-radius-2:8px 8px 0px 0px;
-    }
+}
 .chart {
     border-radius: var(--border-radius);
 }
