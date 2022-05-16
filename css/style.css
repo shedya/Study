@@ -513,14 +513,21 @@ ul.nav{
 }
 .footer p{
 	font-size: 14px;
-	color: #444348;
+	color: #999999;
 	text-transform: uppercase;
 	font-weight: 600;
 	margin-bottom: 30px;
 }
 .footer p a{
-	color: #444348;
+	color: #999999;
 }
 .footer p a:hover{
 	color: #008ed6;
+}
+hr {
+    margin-left: 24%;
+    margin-right: 24%;
+}
+.feature-detail {
+    background: #ffffff !important;
 }

@@ -11,14 +11,16 @@
 	<meta name="robots" content="noarchive">
 	<meta name="author" content="https://study.shed.cm/">
 	<meta name="copyright" content="https://study.shed.cm/">
-	<link rel="shortcut icon" href="https://jsdelivr.panbaidu.cn/gh/shedya/study/logo.png">
-	<link rel="stylesheet" href="https://jsdelivr.panbaidu.cn/gh/shedya/study/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://jsdelivr.panbaidu.cn/gh/shedya/study/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://jsdelivr.panbaidu.cn/gh/shedya/study/css/animate.min.css">
-	<link rel="stylesheet" href="https://jsdelivr.panbaidu.cn/gh/shedya/study/css/style.css">
+	<link rel="shortcut icon" href="https://dl.study.shed.cm/logo.png">
+	<link rel="stylesheet" href="https://dl.study.shed.cm/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://dl.study.shed.cm/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://dl.study.shed.cm/css/animate.min.css">
+	<link rel="stylesheet" href="https://dl.study.shed.cm/css/style.css">
 	<link rel="stylesheet" href="https://dl.study.shed.cm/css/responsive.css">
+	<link rel="stylesheet" href="https://dl.study.shed.cm/css/flash-w.css">
+	<script src="https://dl.study.shed.cm/js/pace.min.js"></script>
 	<script src="https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/svg_8491_4.a4ee02449356f08045594940e6dca561.js"></script>
-	<script src="https://jsdelivr.panbaidu.cn/gh/shedya/study/js/modernizr.js"></script>
+	<script src="https://dl.study.shed.cm/js/modernizr.js"></script>
 	<script>var imgs=document.querySelectorAll("img");function getTop(e){var T=e.offsetTop;while((e=e.offsetParent)){T+=e.offsetTop}return T}function lazyLoad(imgs){var H=document.documentElement.clientHeight;var S=document.documentElement.scrollTop||document.body.scrollTop;for(var i=0;i<imgs.length;i++){if(H+S>getTop(imgs[i])){imgs[i].src=imgs[i].getAttribute("data-src")}}}window.onload=window.onscroll=function(){lazyLoad(imgs)};</script>
 </head>
 <body>
@@ -36,11 +38,11 @@
 									<span class="icon-bar"></span>
 								</button>
 								<a href="/">
-									<img src="https://jsdelivr.panbaidu.cn/gh/shedya/study/logo.png" alt="Study" class="img-responsive logo" style="height:52px;padding-left:8px;padding-top:8px;padding-bottom:8px">
+									<img src="https://dl.study.shed.cm/logo.png" alt="Study" class="img-responsive logo" style="height:52px;padding-left:8px;padding-top:8px;padding-bottom:8px">
 								</a>
 							</div>
 							<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="border-bottom-width:8px;padding-bottom:3px;height:9px">
-								<ul class="nav navbar-nav navbar-right" style="padding-top:9px">
+								<ul class="nav navbar-nav navbar-right" style="padding-top:9px" id="a">
 									<li>
 										<a href="/">主页</a>
 									</li>
@@ -69,10 +71,10 @@
 			</div>
 		</div>
 	</header>
-	<section class="banner" id="home">
+	<div class="banner" id="home">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6 wow fadeInLeft animated animated animated animated animated animated animated" style="visibility:visible;animation-name:fadeInLeft;padding-right:0px">
+				<div id="a" class="col-xs-6 wow fadeInLeft animated animated animated animated animated animated animated" style="visibility:visible;animation-name:fadeInLeft;padding-right:0px">
 					<h3>细水长流 滴水石穿</h3>
 					<h1>Study 更新日志</h1>
 					<p style="margin-bottom:60px">一款用来记录学习点点滴滴的安卓App。 能够记录学习的点点滴滴，对于曾经学习情况的复盘和将来发展的规划都有非常大的作用。
@@ -85,7 +87,7 @@
 					</a>
 					<a target="_blank" href="https://testflight.apple.com/join/p2yZxLSY">
 						<button class="download-btn" style="margin-top:6px;background: #fff;
-    color: #000;"><svg class="iconpark-icon" style="width: 19px;height: 19px;margin-bottom: -4px;margin-right: 4px;"><use href="#applepadding"></use></svg>下载iOS版<sup style="font-weight: 200;font-size: 10px;">Bate</sup></button>
+    color: #000;"><svg class="iconpark-icon" style="width: 19px;height: 19px;margin-bottom: -4px;margin-right: 4px;"><use href="#applepadding"></use></svg>下载iOS版<h4 style="font-size: 23px;margin-top: -37px;color: #00000020;top: 11px;position: relative;">测试版本</h4></button>
 					</a>
 					<a href="/">
 						<button class="features-btn" style="margin-top:6px;margin-bottom:120px;margin-right: 15px;">返回首页</button>
@@ -96,18 +98,18 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+	<div id="a">
 	<section class="features text-center" id="features">
 		<div class="container"></div>
 	</section>
-	<hr>
-	<section class="details" id="about">
+	<section class="details">
 		<div class="container">
 			<div class="row" style="padding-bottom:150px">
 				<div class="col-md-offset-1 wow slideInUp animated animated animated animated animated animated animated animated" style="margin-left:20px;margin-right:20px">
 					<h4>更新日志</h4>
 					<h2>Android</h2>
-					<img class="img-responsive" src="https://jsdelivr.panbaidu.cn/gh/shedya/study/img/daag.png" alt="Study">
+					<img class="img-responsive" src="https://dl.study.shed.cm/img/daag.png" alt="Study">
 					<p>敬请期待</p>
 					<ul>
 					    <h3>2.5</h3>
@@ -127,6 +129,7 @@
 			</div>
 		</div>
 	</section>
+	</div>
 	<hr>
 	<div class="details container text-center" style="">
 			<p style="margin-top: 0px;margin-bottom: 12px;">友情链接</p>
@@ -149,18 +152,19 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://dl.study.shed.cm/js/pjax.js"></script>
+	<script>var pjax = new Pjax({selectors: ["title","meta","#a"],cacheBust: false})</script>
 	<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
 	<script>LA.init({id:"JdqA4zmFHw1h7GJc",ck:"JdqA4zmFHw1h7GJc"})</script>
 	<script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
-    <script>new LingQue.Monitor().init({id:"JefXjibg08991Sly",sendSuspicious:true,sendSpaPv:true});</script>
-	<script src="https://jsdelivr.panbaidu.cn/gh/shedya/study/js/jquery-2.1.1.js"></script>
-	<script src="https://jsdelivr.panbaidu.cn/gh/shedya/study/js/smoothscroll.js"></script>
-	<script src="https://jsdelivr.panbaidu.cn/gh/shedya/study/js/bootstrap.min.js"></script>
-	<script src="https://jsdelivr.panbaidu.cn/gh/shedya/study/js/custom.js"></script>
-	<script src="https://jsdelivr.panbaidu.cn/gh/shedya/study/js/wow.js"></script>
-	<script src="https://jsdelivr.panbaidu.cn/gh/shedya/study/js/gmaps.js"></script>
-	<script>
-		var map=new GMaps({el:"#map",lat:-12.043333,lng:-77.028333})
-	</script>
+	<script>new LingQue.Monitor().init({id:"JefXjibg08991Sly",sendSuspicious:true,sendSpaPv:true});</script>
+	<script src="https://dl.study.shed.cm/js/jquery-2.1.1.js"></script>
+	<script src="https://dl.study.shed.cm/js/smoothscroll.js"></script>
+	<script src="https://dl.study.shed.cm/js/bootstrap.min.js"></script>
+	<script src="https://dl.study.shed.cm/js/custom.js"></script>
+	<script src="https://dl.study.shed.cm/js/wow.js"></script>
+	<script src="https://dl.study.shed.cm/js/gmaps.js"></script>
+	<script src="https://blog-cdn.shed.cm/assets/js/features/SmoothScroll.min.js"></script>
+	<script>var map=new GMaps({el:"#map",lat:-12.043333,lng:-77.028333})</script>
 </body>
 </html>
