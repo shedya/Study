@@ -262,7 +262,7 @@
 		width: 100%;
 	}
 	.horizontal-phone img {
-		margin: -14px;
+		margin: 0px;
 	}
 	img.img-responsive.details-phone {
 		padding-left: 50px;
